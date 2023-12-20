@@ -4,7 +4,7 @@ st.text("1618033988749895")
 nama = st.text_input("input nama ygy.. :D")
 nim = st.text_input("input nim ygy.. :D, harus 10 digit")
 if len(nim) != 10:
-    st.text("ERROR!!!")
+    st.text("ERROR!!")
 else:
     st.text("NIM : "+ nim)
 
