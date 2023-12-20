@@ -29,7 +29,7 @@ data = {'Occupancy' : ['DataScientist', 'Doctor', 'Engineer'],
 st.dataframe(data, use_container_width=True)
 df  = pd.DataFrame(data)
 st.dataframe(df, use_container_width=True)
-file = st.file_uploader('Choose Picture', type=['png','csv'])
+file = st.file_uploader('Choose Picture', type=['png','csv','jpg', 'jpeg'])
 if file is not None:
     # if file.type == "png":
     #     st.image(file)
